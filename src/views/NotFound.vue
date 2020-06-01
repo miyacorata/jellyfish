@@ -6,7 +6,7 @@
             <p></p>
             <p>
                 <router-link to="/">Home</router-link> |
-                <a href="https://github.com/miyacorata/jellyfish" target="_blank" rel="noopener">Report to Admin</a>
+                <a href="https://github.com/miyacorata/jellyfish/issues" target="_blank" rel="noopener">Report Issue</a>
             </p>
         </div>
     </div>
