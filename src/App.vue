@@ -8,6 +8,7 @@
             <div id="nav">
                 <router-link to="/">Home</router-link>
                 <router-link to="/about">About</router-link>
+                <router-link to="/works">Works</router-link>
                 <a href="https://miyacorata.hatenablog.com" target="_blank">Blog</a>
             </div>
         </header>
