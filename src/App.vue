@@ -136,4 +136,8 @@
         max-width: 1000px;
         margin: 0 auto;
     }
+
+    a {
+        color: #61bf99;
+    }
 </style>
