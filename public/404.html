@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Found</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Noto Serif', 'Noto Serif JP', sans-serif;
+            background: #151515;
+            color: floralwhite;
+        }
+        main{
+            display: flex;
+        }
+
+        #background{
+            width: calc(50% - 250px);
+            height: 100vh;
+            background: black url("https://files.miyacorata.net/images/jellyfish/pakutaso_20160156008post-6568_M.jpg") no-repeat center center;
+            background-size: cover;
+            box-shadow: 0 0 10px black;
+            z-index: 3;
+        }
+        #background a {
+            color: floralwhite;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            text-decoration: none;
+        }
+
+        #message{
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            width: calc(50% + 250px);
+            padding: 0 10px 0 50px;
+        }
+        #message > div{
+            width: 450px;
+        }
+
+        h1{
+            margin-top: 0;
+        }
+        a{
+            color: #61bf99;
+        }
+
+        #tower{
+            position: fixed;
+            bottom: -30px;
+            width: 1400px;
+            left: calc(50vw - 270px);
+            filter: blur(5px);
+            font-size: 90px;
+            color: white;
+            opacity: 0.04;
+            user-select: none;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="background">
+        <a href="https://www.pakutaso.com/20160156008post-6568.html" target="_blank" rel="noopener">
+            <span>Photo by Kazuki HIRO on PAKUTASO</span>
+        </a>
+    </div>
+    <div id="message">
+        <div>
+            <h1>Not Found</h1>
+            <p>
+                お探しのページは存在しません。URLをお確かめください。<br>
+                ページが移動したか、削除された可能性もあります。
+            </p>
+        </div>
+    </div>
+</main>
+<div id="tower">
+    There once stood a Tower.<br>
+    No one knows when, by whom or for what it was built for.
+</div>
+</body>
+</html>
