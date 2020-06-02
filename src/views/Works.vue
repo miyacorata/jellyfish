@@ -5,7 +5,23 @@
                      subline="これまでの制作物"/>
         <div class="basic-content">
             <h2>Websites</h2>
-            <WorkCard image=""/>
+            <WorkCard image="https://files.miyacorata.net/images/jellyfish/mlp.jpg"
+                      title="MillionLivePortal"
+                      description="アイドルマスターミリオンライブ！の非公式DB＆ポータルサイト"
+                      :tags="[
+                          {
+                              category: 'content',
+                              value: 'THE IDOLM@STER'
+                          },
+                          {
+                              category: 'tech',
+                              value: 'PHP'
+                          },
+                          {
+                              category: 'tech',
+                              value: 'Laravel'
+                          }
+                      ]"/>
         </div>
     </div>
 </template>
