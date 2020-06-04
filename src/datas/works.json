@@ -1,0 +1,42 @@
+{
+  "websites": [
+    {
+      "name": "MillionLivePortal - Ouranos",
+      "description": "アイドルマスターミリオンライブ！の非公式DB＆ポータルサイト。\n英語、韓国語及び繁体字と簡体字の中国語に対応。名前はギリシャ神話の天空神ウーラノスより。",
+      "image": "https://files.miyacorata.net/images/jellyfish/mlp.jpg",
+      "github": "project-alisa/Ouranos",
+      "tags": [
+        {"category": "content", "value": "THE IDOLM@STER"},
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "Laravel"}
+      ],
+      "links": [
+        {"name": "million-theater.info", "url": "https://million-theater.info"}
+      ]
+    },
+    {
+      "name": "ShinyColorsPortal - Athena",
+      "description": "アイドルマスターシャイニーカラーズの非公式DB＆ポータルサイト。\n名前はギリシャ神話の女神アテーナーより。",
+      "image": "https://files.miyacorata.net/images/jellyfish/scp.jpg",
+      "github": "project-tsubasa/Athena",
+      "tags": [
+        {"category": "content", "value": "THE IDOLM@STER"},
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "CodeIgniter"}
+      ],
+      "links": [
+        {"name": "283pro.net", "url": "https://283pro.net"}
+      ]
+    },
+    {
+      "name": "miyacorata.net - Jellyfish",
+      "description": "このウェブサイト。\n名前は「少女☆歌劇 レヴュースタァライト」の神楽ひかりさんがクラゲ好きなことから命名。",
+      "image": "https://files.miyacorata.net/images/jellyfish/scp.jpg",
+      "github": "miyacorata/jellyfish",
+      "tags": [
+        {"category": "tech", "value": "Vue.js"}
+      ],
+      "links": []
+    }
+  ]
+}

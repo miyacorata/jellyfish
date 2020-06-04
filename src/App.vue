@@ -105,8 +105,11 @@
         bottom: -18px;
     }
 
-    .v-enter-active, .v-leave-active {
-        transition: opacity .4s;
+    .v-enter-active {
+        transition: opacity .8s;
+    }
+    .v-leave-active {
+        transition: opacity .2s;
     }
     .v-enter, .v-leave-to {
         opacity: 0;

@@ -27,7 +27,7 @@ const routes = [
     // fallback
     {
         path: '/*',
-        name: 'notFound',
+        name: 'NotFound',
         component: () => import('../views/NotFound.vue')
     }
 ]
@@ -36,6 +36,12 @@ const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
     routes
+})
+
+router.beforeEach((to,from, next) => {
+    let sitename = 'miyacorata.net'
+    window.document.title = !to.name ? sitename : to.name + ' - ' + sitename
+    next()
 })
 
 export default router
