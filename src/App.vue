@@ -12,9 +12,11 @@
                 <a href="https://miyacorata.hatenablog.com" target="_blank">Blog</a>
             </div>
         </header>
-        <transition mode="out-in">
-            <router-view/>
-        </transition>
+        <main>
+            <transition mode="out-in">
+                <router-view/>
+            </transition>
+        </main>
         <footer>
             <p id="app-info">{{ host + ' - ' + appName + ' Ver' + version }}</p>
             <p id="footer-text">
@@ -47,10 +49,14 @@
     }
 
     #app {
+        position: relative;
         font-family: 'Noto Serif', 'Noto Serif JP', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: floralwhite;
+        min-height: 100vh;
+    }
+    main {
         padding-bottom: 110px;
     }
 
