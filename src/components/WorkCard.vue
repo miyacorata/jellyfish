@@ -7,10 +7,14 @@
             <div class="tags">
                 <span v-for="tag in tags" :key="tag.value" :class="'tag '+tag.category">{{ tag.value }}</span>
             </div>
-            <div class="links">
-                <a v-for="link in links" :key="link.name" :href="link.url" target="_blank" rel="noopener">{{ link.name }}</a>
-                <github-button v-if="github" :href="'https://github.com/'+github" data-size="large"
-                               data-show-count="true" :aria-label="'Star '+github+' on GitHub'">Star</github-button>
+            <div class="see-other">
+                <div class="github">
+                    <github-button v-if="github" :href="'https://github.com/'+github" data-size="large"
+                                   data-show-count="true" :aria-label="'Star '+github+' on GitHub'">View on GitHub</github-button>
+                </div>
+                <div class="links">
+                    <a v-for="link in links" :key="link.name" :href="link.url" target="_blank" rel="noopener">{{ link.name }}</a>
+                </div>
             </div>
         </div>
     </article>
@@ -61,7 +65,7 @@
     .work-card {
         display: flex;
         align-items: flex-start;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .work-card > img:first-child{
         width: 250px;
@@ -97,14 +101,18 @@
         border-left-color: deepskyblue;
     }
 
+    .work-card .see-other {
+        margin: 10px 0;
+        display: flex;
+    }
     .work-card .links {
         text-align: right;
-        margin: 10px 0;
+        width: 100%;
     }
     .work-card .links > a {
         display: inline-block;
         vertical-align: top;
-        margin-right: 10px;
+        margin-left: 10px;
         padding: 2px 8px;
         font-size: 16px;
         text-decoration: none;
@@ -124,7 +132,7 @@
     .work-card .links > a:hover:before {
         animation: blinker ease 1s infinite;
     }
-    .v-leave-active .work-card .links > span {
+    .v-leave-active .work-card .github > span{
         opacity: 0;
     }
     @keyframes blinker {
