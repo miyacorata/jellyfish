@@ -46,6 +46,7 @@
         margin: 0;
         padding: 0;
         background: #151515;
+        overflow-y: scroll;
     }
 
     #app {
