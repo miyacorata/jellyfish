@@ -18,7 +18,11 @@
                     <p>
                         プログラミングの他クルマでのドライブや「こけし」と名付けている作図もといおえかきを趣味にしています
                     </p>
-                    <h3>Skills</h3>
+                    <div class="links">
+                        <github-button href="https://github.com/miyacorata" data-size="large" aria-label="Follow @miyacorata on GitHub">miyacorata</github-button>
+                        <a href="https://twitter.com/miyacorata" class="twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>@miyacorata</a>
+                    </div>
+                    <h3 style="margin-top: 30px">Skills</h3>
                     <p>HTML5, PHP (contain Laravel), CSS (contain Bulma), JavaScript (Vanilla.js, Vue.js)</p>
 
                 </div>
@@ -29,12 +33,13 @@
 
 <script>
     import HeadPicture from "../components/HeadPicture";
+    import GithubButton from 'vue-github-button';
     export default {
-        components: {HeadPicture}
+        components: {HeadPicture, GithubButton}
     }
 </script>
 
-<style>
+<style scoped>
     #profile {
         display: flex;
         align-items: flex-start;
@@ -52,5 +57,32 @@
         font-size: 20px;
         margin-left: 20px;
         color: gray;
+    }
+    #profile .links > a, #profile .links > span {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+    #profile .links > a {
+        display: inline-block;
+        vertical-align: top;
+        padding: 2px 8px;
+        font-size: 16px;
+        text-decoration: none;
+        border: solid 1px #61bf99;
+        border-radius: 3px;
+        transition: background-color .3s, color .3s;
+    }
+    #profile .links > a > .fab {
+        margin-right: 3px;
+    }
+    #profile .links > a:hover {
+        background: #61bf99;
+        color: #151515;
+    }
+    #profile .links > a.twitter {
+        background: #00acee;
+        border-color: #00acee;
+        color: white;
     }
 </style>
