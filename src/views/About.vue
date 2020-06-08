@@ -24,7 +24,10 @@
                     </div>
                     <h3 style="margin-top: 30px">Skills</h3>
                     <p>HTML5, PHP (contain Laravel), CSS (contain Bulma), JavaScript (Vanilla.js, Vue.js)</p>
-
+                    <h3>Favorite Contents</h3>
+                    <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, and more...</p>
+                    <h3>Favorite activities</h3>
+                    <p>Travelling, Driving, Photography, and more...</p>
                 </div>
             </div>
         </div>
