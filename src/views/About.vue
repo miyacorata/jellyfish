@@ -20,9 +20,10 @@
                     </p>
                     <div class="links">
                         <github-button href="https://github.com/miyacorata" data-size="large" aria-label="Follow @miyacorata on GitHub">miyacorata</github-button>
-                        <a href="https://twitter.com/miyacorata" class="twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>@miyacorata</a>
+                        <a href="https://twitter.com/miyacorata" class="twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>miyacorata</a>
+                        <a href="https://instagram.com/miyacorata" class="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>miyacorata</a>
                     </div>
-                    <h3 style="margin-top: 30px">Skills</h3>
+                    <h3>Skills</h3>
                     <p>HTML5, PHP (contain Laravel), CSS (contain Bulma), JavaScript (Vanilla.js, Vue.js)</p>
                     <h3>Favorite Contents</h3>
                     <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, and more...</p>
@@ -77,7 +78,7 @@
         transition: background-color .3s, color .3s;
     }
     #profile .links > a > .fab {
-        margin-right: 3px;
+        margin-right: 5px;
     }
     #profile .links > a:hover {
         background: #61bf99;
@@ -87,5 +88,14 @@
         background: #00acee;
         border-color: #00acee;
         color: white;
+    }
+    #profile .links > a.instagram {
+        background: #fafafa;
+        border-color: #fafafa;
+        color: #262626;
+    }
+
+    h3 {
+        margin: 35px 0 10px;
     }
 </style>
