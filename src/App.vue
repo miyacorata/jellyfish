@@ -9,6 +9,7 @@
                 <router-link to="/">Home</router-link>
                 <router-link to="/about">About</router-link>
                 <router-link to="/works">Works</router-link>
+                <router-link to="/links">Links</router-link>
                 <a href="https://miyacorata.hatenablog.com" target="_blank">Blog</a>
             </div>
         </header>
@@ -150,5 +151,29 @@
 
     a {
         color: #61bf99;
+    }
+
+    .tag {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 0 8px 0 6px;
+        border-radius: 2px;
+        border-left: solid 5px blue;
+        background: floralwhite;
+        color: #151515;
+    }
+
+    .tag.content {
+        border-left-color: orange;
+    }
+    .tag.tech {
+        border-left-color: deepskyblue;
+    }
+
+    p.notes {
+        background: rgba(99,99,99,0.3);
+        border-radius: 4px;
+        padding: 10px;
+        margin: 1.2em 0;
     }
 </style>

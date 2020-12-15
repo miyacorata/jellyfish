@@ -23,6 +23,11 @@ const routes = [
         name: 'Works',
         component: () => import('../views/Works.vue')
     },
+    {
+        path: '/links',
+        name: 'Links',
+        component: () => import('../views/Links')
+    },
 
     // fallback
     {
