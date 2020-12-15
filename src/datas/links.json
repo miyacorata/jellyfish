@@ -1,0 +1,63 @@
+{
+  "links": [
+    {
+      "name": "Taglibro de miyacorata",
+      "description": "ブログ。Twitterに比べると更新頻度がアレなのは仕様です。",
+      "tags": [
+        {"category": "content", "value": "Blog"}
+      ],
+      "url": "https://miyacorata.hatenablog.com"
+    },
+    {
+      "name": "MiyaDoc",
+      "description": "PukiWikiベースの個人用資料置き場です。スタイルをいじったり独自プラグインを追加しています。",
+      "tags": [
+        {"category": "content", "value": "Documents"},
+        {"category": "tech", "value": "PukiWiki"}
+      ],
+      "url": "https://doc.miyacorata.net"
+    },
+    {
+      "name": "宮野駅",
+      "description": "mastodonサーバ。管理している各ウェブサイトの更新情報などを発信しています。",
+      "tags": [
+        {"category": "content", "value": "mastodon"},
+        {"category": "tech", "value": "Fediverse"}
+      ],
+      "url": "https://mstdn.miyacorata.net"
+    },
+    {
+      "name": "こけしシリーズ",
+      "description": "今までのデジタルこけしの一覧です。",
+      "tags": [
+        {"category": "content", "value": "Kokeshi"}
+      ],
+      "url": "https://kokeshi.miyacorata.net"
+    },
+    {
+      "name": "St@rtline",
+      "description": "イラストが映えることを第一に目指したスタートページ。miyacorata/startline にリポジトリがあります。",
+      "tags": [
+        {"category": "tech", "value": "Frontend"}
+      ],
+      "url": "https://start.miyacorata.net"
+    },
+    {
+      "name": "MiyanojiRapid YOURLS",
+      "description": "URL短縮ツール。外部からのリンク登録はできません。",
+      "tags": [
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "YOURLS"}
+      ],
+      "url": "https://myn.f5.si"
+    },
+    {
+      "name": "CinderellaGirlsPortal",
+      "description": "アイドルマスターシンデレラガールズの非公式DB&ポータルサイト。更新停止中。",
+      "tags": [
+        {"category": "tech", "value": "PHP"}
+      ],
+      "url": "https://cg-portal.net"
+    }
+  ]
+}

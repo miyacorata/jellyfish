@@ -8,6 +8,7 @@
         <ul>
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/works">Works</router-link></li>
+            <li><router-link to="/links">Links</router-link></li>
             <li><a href="https://miyacorata.hatenablog.com" target="_blank">Blog</a></li>
         </ul>
         <h3>Recent Tweets</h3>

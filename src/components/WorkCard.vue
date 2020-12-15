@@ -1,6 +1,6 @@
 <template>
     <article class="work-card">
-        <img :src="image" alt="image">
+        <img v-if="image" :src="image" alt="image">
         <div>
             <h3>{{ title }}</h3>
             <p>{{ description }}</p>
@@ -82,23 +82,6 @@
     .work-card > div > p{
         margin: 1em 0;
         white-space: pre-wrap;
-    }
-
-    .tag {
-        display: inline-block;
-        margin-right: 10px;
-        padding: 0 8px 0 6px;
-        border-radius: 2px;
-        border-left: solid 5px blue;
-        background: floralwhite;
-        color: #151515;
-    }
-
-    .tag.content {
-        border-left-color: orange;
-    }
-    .tag.tech {
-        border-left-color: deepskyblue;
     }
 
     .work-card .see-other {

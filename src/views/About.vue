@@ -13,7 +13,7 @@
                         佐賀県佐賀市在住 久留米高専プログラミングラボ部所属の下手の横好き趣味グラマ
                     </p>
                     <p>
-                        『アイドルマスター』シリーズや『少女☆歌劇 レヴュースタァライト』などを追っかけています
+                        『アイドルマスター』シリーズや『少女☆歌劇 レヴュースタァライト』、『アサルトリリィ』などを追っかけています
                     </p>
                     <p>
                         プログラミングの他クルマでのドライブや「こけし」と名付けている作図もといおえかきを趣味にしています
@@ -26,7 +26,7 @@
                     <h3>Skills</h3>
                     <p>HTML5, PHP (contain Laravel), CSS (contain Bulma), JavaScript (Vanilla.js, Vue.js)</p>
                     <h3>Favorite Contents</h3>
-                    <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, and more...</p>
+                    <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, AssaultLily, and more...</p>
                     <h3>Favorite activities</h3>
                     <p>Travelling, Driving, Photography, and more...</p>
                 </div>
