@@ -1,6 +1,21 @@
 {
   "websites": [
     {
+      "name": "Lemonade",
+      "description": "アサルトリリィ非公式データベース fvh-P/assaultlily-rdf とSPARQLにより連携してデータを提供する非公式ファンサイト。\n名前は一柳梨璃さんの好物のラムネより。",
+      "image": "https://files.miyacorata.net/images/jellyfish/nowprinting.jpg",
+      "github": "miyacorata/Lemonade",
+      "tags": [
+        {"category": "content", "value": "AssaultLily"},
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "Laravel"},
+        {"category": "tech", "value": "SPARQL"}
+      ],
+      "links": [
+        {"name": "AssaultLily.miyacorata.net", "url": "https://assaultlily.miyacorata.net"}
+      ]
+    },
+    {
       "name": "MillionLivePortal - Ouranos",
       "description": "アイドルマスターミリオンライブ！の非公式DB＆ポータルサイト。\n英語、韓国語及び繁体字と簡体字の中国語に対応。名前はギリシャ神話の天空神ウーラノスより。",
       "image": "https://files.miyacorata.net/images/jellyfish/mlp.jpg",
