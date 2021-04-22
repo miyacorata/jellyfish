@@ -53,11 +53,20 @@
     },
     {
       "name": "CinderellaGirlsPortal",
-      "description": "アイドルマスターシンデレラガールズの非公式DB&ポータルサイト。更新停止中。",
+      "description": "アイドルマスターシンデレラガールズの非公式DB&ポータルサイト。開発中止。",
       "tags": [
         {"category": "tech", "value": "PHP"}
       ],
       "url": "https://cg-portal.net"
+    },
+    {
+      "name": "ShinyColorsPortal",
+      "description": "アイドルマスターシャイニーカラーズの非公式DB＆ポータルサイト。開発中止。",
+      "tags": [
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "CodeIgniter"}
+      ],
+      "url": "https://283pro.net"
     }
   ]
 }

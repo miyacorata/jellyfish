@@ -10,10 +10,10 @@
                 <div>
                     <p class="name">宮野 慧<span class="screenname">miyacorata</span></p>
                     <p>
-                        佐賀県佐賀市在住 久留米高専プログラミングラボ部所属の下手の横好き趣味グラマ
+                        佐賀県佐賀市在住 フリーター兼下手の横好き趣味グラマ
                     </p>
                     <p>
-                        『アイドルマスター』シリーズや『少女☆歌劇 レヴュースタァライト』、『アサルトリリィ』などを追っかけています
+                        『少女☆歌劇 レヴュースタァライト』、『アサルトリリィ』などを追っかけています
                     </p>
                     <p>
                         プログラミングの他クルマでのドライブや「こけし」と名付けている作図もといおえかきを趣味にしています
@@ -24,7 +24,7 @@
                         <a href="https://instagram.com/miyacorata" class="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>miyacorata</a>
                     </div>
                     <h3>Skills</h3>
-                    <p>HTML5, PHP (contain Laravel), CSS (contain Bulma), JavaScript (Vanilla.js, Vue.js)</p>
+                    <p>HTML5, PHP (contain Laravel), CSS, JavaScript, SPARQL</p>
                     <h3>Favorite Contents</h3>
                     <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, AssaultLily, and more...</p>
                     <h3>Favorite activities</h3>
