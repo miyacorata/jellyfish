@@ -30,20 +30,6 @@
       ]
     },
     {
-      "name": "ShinyColorsPortal - Athena",
-      "description": "アイドルマスターシャイニーカラーズの非公式DB＆ポータルサイト。\n名前はギリシャ神話の女神アテーナーより。",
-      "image": "https://files.miyacorata.net/images/jellyfish/scp.jpg",
-      "github": "project-tsubasa/Athena",
-      "tags": [
-        {"category": "content", "value": "THE IDOLM@STER"},
-        {"category": "tech", "value": "PHP"},
-        {"category": "tech", "value": "CodeIgniter"}
-      ],
-      "links": [
-        {"name": "283pro.net", "url": "https://283pro.net"}
-      ]
-    },
-    {
       "name": "StarrySky",
       "description": "少女☆歌劇レヴュースタァライトの非公式DBサイト。\n名前は英語で星空を意味する「Starry sky」より。",
       "image": "https://files.miyacorata.net/images/jellyfish/starrysky.jpg",
