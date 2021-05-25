@@ -53,7 +53,7 @@
     },
     {
       "name": "CinderellaGirlsPortal",
-      "description": "アイドルマスターシンデレラガールズの非公式DB&ポータルサイト。開発中止。",
+      "description": "アイドルマスターシンデレラガールズの非公式DB&ポータルサイト。開発中止、閉鎖。",
       "tags": [
         {"category": "tech", "value": "PHP"}
       ],
@@ -61,7 +61,7 @@
     },
     {
       "name": "ShinyColorsPortal",
-      "description": "アイドルマスターシャイニーカラーズの非公式DB＆ポータルサイト。開発中止。",
+      "description": "アイドルマスターシャイニーカラーズの非公式DB＆ポータルサイト。開発中止、閉鎖。",
       "tags": [
         {"category": "tech", "value": "PHP"},
         {"category": "tech", "value": "CodeIgniter"}
