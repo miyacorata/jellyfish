@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - miyacorata
+  ignore:
+  - dependency-name: core-js
+    versions:
+    - 3.10.0
+    - 3.10.2
+    - 3.11.0
+  - dependency-name: eslint
+    versions:
+    - 7.20.0
+    - 7.23.0
+  - dependency-name: eslint-plugin-vue
+    versions:
+    - 7.7.0
+  - dependency-name: "@vue/cli-plugin-router"
+    versions:
+    - 4.5.12
