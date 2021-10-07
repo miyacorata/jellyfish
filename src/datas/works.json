@@ -12,21 +12,7 @@
         {"category": "tech", "value": "SPARQL"}
       ],
       "links": [
-        {"name": "AssaultLily.miyacorata.net", "url": "https://assaultlily.miyacorata.net"}
-      ]
-    },
-    {
-      "name": "MillionLivePortal - Ouranos",
-      "description": "アイドルマスターミリオンライブ！の非公式DB＆ポータルサイト。\n英語、韓国語及び繁体字と簡体字の中国語に対応。名前はギリシャ神話の天空神ウーラノスより。",
-      "image": "https://files.miyacorata.net/images/jellyfish/mlp.jpg",
-      "github": "project-alisa/Ouranos",
-      "tags": [
-        {"category": "content", "value": "THE IDOLM@STER"},
-        {"category": "tech", "value": "PHP"},
-        {"category": "tech", "value": "Laravel"}
-      ],
-      "links": [
-        {"name": "million-theater.info", "url": "https://million-theater.info"}
+        {"name": "Lemonade.lily.garden", "url": "https://lemonade.lily.garden"}
       ]
     },
     {
@@ -40,7 +26,7 @@
         {"category": "tech", "value": "Laravel"}
       ],
       "links": [
-        {"name": "revuestarlight.miyacorata.net", "url": "https://revuestarlight.miyacorata.net"}
+        {"name": "RevueStarlight.miyacorata.net", "url": "https://revuestarlight.miyacorata.net"}
       ]
     },
     {

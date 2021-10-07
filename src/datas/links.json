@@ -67,6 +67,15 @@
         {"category": "tech", "value": "CodeIgniter"}
       ],
       "url": "https://283pro.net"
+    },
+    {
+      "name": "MillionLivePortal",
+      "description": "アイドルマスターミリオンライブ！の非公式DB&ポータルサイト。開発中止、運用終了。",
+      "tags": [
+        {"category": "tech", "value": "PHP"},
+        {"category": "tech", "value": "Laravel"}
+      ],
+      "url": "https://million-theater.info"
     }
   ]
 }
