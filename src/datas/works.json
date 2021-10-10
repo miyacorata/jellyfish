@@ -3,7 +3,7 @@
     {
       "name": "Lemonade",
       "description": "アサルトリリィ非公式データベース fvh-P/assaultlily-rdf とSPARQLにより連携してデータを提供する非公式ファンサイト。\n名前は一柳梨璃さんの好物のラムネより。",
-      "image": "https://files.miyacorata.net/images/jellyfish/nowprinting.jpg",
+      "image": "https://files.mrapid.org/images/jellyfish/lemonade.jpg",
       "github": "miyacorata/Lemonade",
       "tags": [
         {"category": "content", "value": "AssaultLily"},
@@ -18,7 +18,7 @@
     {
       "name": "StarrySky",
       "description": "少女☆歌劇レヴュースタァライトの非公式DBサイト。\n名前は英語で星空を意味する「Starry sky」より。",
-      "image": "https://files.miyacorata.net/images/jellyfish/starrysky.jpg",
+      "image": "https://files.mrapid.org/images/jellyfish/starrysky.jpg",
       "github": "miyacorata/StarrySky",
       "tags": [
         {"category": "content", "value": "RevueStarlight"},
@@ -32,7 +32,7 @@
     {
       "name": "miyacorata.net - Jellyfish",
       "description": "このウェブサイト。\n名前は「少女☆歌劇 レヴュースタァライト」の神楽ひかりさんがクラゲ好きなことから命名。",
-      "image": "https://files.miyacorata.net/images/jellyfish/nowprinting.jpg",
+      "image": "https://files.mrapid.org/images/jellyfish/nowprinting.jpg",
       "github": "miyacorata/jellyfish",
       "tags": [
         {"category": "tech", "value": "Vue.js"}
