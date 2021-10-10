@@ -22,11 +22,12 @@
                         <github-button href="https://github.com/miyacorata" data-size="large" aria-label="Follow @miyacorata on GitHub">miyacorata</github-button>
                         <a href="https://twitter.com/miyacorata" class="twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>miyacorata</a>
                         <a href="https://instagram.com/miyacorata" class="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>miyacorata</a>
+                        <a href="https://www.pixiv.net/users/19082571" class="pixiv" target="_blank" rel="noopener">pixiv users/19082571</a>
                     </div>
                     <h3>Skills</h3>
                     <p>HTML5, PHP (contain Laravel), CSS, JavaScript, SPARQL</p>
                     <h3>Favorite Contents</h3>
-                    <p>THE IDOLM@STER (MillionLive), 少女☆歌劇 レヴュースタァライト, AssaultLily, and more...</p>
+                    <p>少女☆歌劇 レヴュースタァライト, AssaultLily, and more...</p>
                     <h3>Favorite activities</h3>
                     <p>Travelling, Driving, Photography, and more...</p>
                 </div>
@@ -77,7 +78,7 @@
         border-radius: 3px;
         transition: background-color .3s, color .3s;
     }
-    #profile .links > a > .fab {
+    #profile .links > a > .fab, #profile .links > a > .fas {
         margin-right: 5px;
     }
     #profile .links > a:hover {
@@ -93,6 +94,11 @@
         background: #fafafa;
         border-color: #fafafa;
         color: #262626;
+    }
+    #profile .links > a.pixiv {
+        background: #0097fa;
+        border-color: #0097fa;
+        color: #ffffff;
     }
 
     h3 {
