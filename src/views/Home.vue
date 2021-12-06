@@ -1,7 +1,7 @@
 <template>
     <div id="home">
         <div class="home-title">
-            <img src="https://files.miyacorata.net/images/jellyfish/mahiru.png" alt="mahiru">
+            <img src="https://files.mrapid.org/images/jellyfish/mahiru.png" alt="mahiru">
             <div>
                 <h1>miyacorata.net</h1>
                 <div class="subline">The website of K Miyano</div>
