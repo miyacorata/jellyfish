@@ -1,7 +1,7 @@
 <template>
     <div id="about">
         <HeadPicture title="Works"
-                     src="https://files.miyacorata.net/images/jellyfish/subway.jpg"
+                     src="https://files.mrapid.org/images/jellyfish/subway.jpg"
                      subline="これまでの制作物"/>
         <div class="basic-content">
             <h2>Websites</h2>

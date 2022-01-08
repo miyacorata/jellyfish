@@ -1,7 +1,7 @@
 <template>
     <div id="links">
         <HeadPicture title="Links"
-                     src="https://files.miyacorata.net/images/jellyfish/ohorikoen.jpg"
+                     src="https://files.mrapid.org/images/jellyfish/ohorikoen.jpg"
                      subline="リンク集" />
         <div class="basic-content">
             <h2>Links</h2>
