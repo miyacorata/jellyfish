@@ -1,7 +1,7 @@
 <template>
     <div id="about">
         <HeadPicture title="About"
-                     src="https://files.miyacorata.net/images/jellyfish/ohorikoen.jpg"
+                     src="https://files.mrapid.org/images/jellyfish/ohorikoen.jpg"
                      subline="miyacorata.net について"/>
         <div class="basic-content">
             <h2>Profile</h2>
